@@ -327,4 +327,4 @@
 
 - 总览
 
-	[README](../READNE.md)
+	[README](../README.md)

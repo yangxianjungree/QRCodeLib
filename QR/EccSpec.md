@@ -71,12 +71,12 @@ QR码的纠错等级指允许符号在不丢失数据的情况下承受损坏的
 
 	（1）从编码矩阵中删去丢失数据块和丢失编码块对应行。假设D1、D4、C2丢失，根据图1所示RS编码运算等式，我们得到如下B’以及等式。
 	
-	![ RS纠错码编码运算](./images/EccSpec/modematrix.png)
+	![ RS纠错码编码运算](./images/EccSpec/modeMatrix.png)
 
 	
 	（2）由于B‘是可逆的，两边乘上B’逆矩阵。
 		
-	![ RS纠错码编码运算](./images/EccSpec/nimatrix.png)
+	![ RS纠错码编码运算](./images/EccSpec/niMatrix.png)
 	
 	（3）得到如下原始数据D的计算公式
 			
@@ -294,5 +294,5 @@ Reed Solomon将所有的运算归结到有限域中，即通常说的珈罗华�
 
 - 总览
 
-	[README](../READNE.md)
+	[README](../README.md)
 

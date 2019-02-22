@@ -6,7 +6,7 @@
 
 数据编码形式主要分为数字编码、字符编码、字节编码、日文编码（这里就不讨论日文编码了）。主要讨论的编码字符是ASCII表（摘自百度）里面的。
 
-![ASCII表](./images/CodeGenerator/ASCII.png)
+![ASCII表](./images/CodeGenerator/ASCII.PNG)
 
 - 数字编码(Numeric Mode)
 
@@ -471,6 +471,6 @@
 
 - 总览
 
-	[README](../READNE.md)
+	[README](../README.md)
 
 
