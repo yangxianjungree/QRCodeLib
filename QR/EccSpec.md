@@ -94,7 +94,7 @@ Reed Solomon将所有的运算归结到有限域中，即通常说的珈罗华�
 
 	 查找纠错对照表，在示例数据中，1-H中的RS块编号为1，我们不需要分隔。
 
-	![ RS纠错码编码运算](./images/EccSpec/QRCodeSpecTable5.png)
+	![ RS纠错码编码运算](./images/EccSpec/QRCodeSpecTable5.PNG)
 
 
 - 接下来，在纠错对照表中示例数据纠错码字的数量是17，我们查找生成多项式表选择g（x）。
@@ -147,7 +147,7 @@ Reed Solomon将所有的运算归结到有限域中，即通常说的珈罗华�
 	
 	在重复计算结束之前，我们重复相同的逻辑。接下来，对于7是α^198，我们使用g（x）* α^198 * x^7.如果α的指数超过255，那么我们使用α^255 = 1。
 
-	![ calECC过程](./images/EccSpec/calECCtable6.png)
+	![ calECC过程](./images/EccSpec/calECCtable6.PNG)
 
 - 最后，减去这些素多项式，我们可以得到剩下的R（x）。 
 
