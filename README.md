@@ -1,4 +1,4 @@
-# QRCodeLib --一个基于libqrencode库的Model 1版二维码生成器#
+# QRCodeLib --一个基于libqrencode库的Model 1版二维码生成器及生成过程详细剖析#
 
 ## [相关笔记与demo]()
 
